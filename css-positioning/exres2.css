@@ -1,0 +1,56 @@
+#backround {
+  width: 600px;
+  height: 300px;
+  background-color: palevioletred;
+  position: relative;
+}
+
+
+.grafs {
+  background-color: black;
+  width: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+#graf1 {
+ height: 30px;
+ left: 50px;
+}
+
+#graf2 {
+  height: 100px;
+  left: 100px;
+}
+
+#graf3 {
+  height: 150px;
+  left: 150px;
+}
+
+#graf4 {
+  height: 100px;
+  left: 200px;
+}
+
+#graf5 {
+  height: 80px;
+  left: 250px;
+}
+
+#graf6 {
+  height: 60px;
+  left: 300px;
+}
+
+#Time {
+  position: absolute;
+  left: 500px;
+  bottom: 480px;
+}
+
+#Money {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
