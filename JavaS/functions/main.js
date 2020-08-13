@@ -115,12 +115,107 @@
 
 
 
-const add = function(x, y){
-  const sum = x + y
-  return sum
-  console.log("Returned " + sum)
-}
+// const add = function(x, y){
+//   const sum = x + y
+//   return sum
+//   console.log("Returned " + sum)
+// }
 
-add(1, 2)
+// add(1, 2)
 
+
+
+// const getInterest = function(money){
+//   return money * 0.2
+// }
+
+// const getDebt = function(money){//mony = 100
+//   const interest = getInterest(money)//mony =20 insert = mony *0.2 
+//   return money + interest 
+// }
+
+// const borrowedMoney = 100
+// const debt = getDebt(borrowedMoney) // debt = 120
+// console.log(debt) // prints 120
+
+
+
+
+// function greet(){
+//   console.log("Hello there, from the wild, wild West")
+// }
+// greet() //works without a problem
+// //greetExpression() //throws an error
+
+// function greet(){
+//   console.log("Hello there, from the wild, wild West")
+// }
+
+// const greetExpression = function(){
+//   console.log(greet)
+// }
+
+// const person = {
+//   name: "Julius",
+//   speak: function(food) {
+//     console.log("i like " + food)
+//   }
+// }
+// console.log(person.name) //you know what this will do
+
+// person.speak( "cheese toast")
+
+
+
+
+//exrec1
+
+// const calcAge = function(x , y){
+//   return x - y
+// }
+//   const age = calcAge( 2017,  1989)
+// console.log(age)
+
+
+
+
+//exrec2
+
+// const calcAge = function(x , y){
+//   return x - y
+// }
+//   let age = calcAge( 2017,  1989)
+  
+// console.log("you are either " + age + "or " + (age+=1))
+
+ //exrec3
+
+// const isEven = function(number){
+//   return number % 2 == 0
+// }
+// console.log(isEven(5))
+
+//exrec 4
+
+// const oddNumbers = function(arr){
+//   for(let i = 0; i < arr.length; i++){
+    
+//     if (arr[i] %2 == !0)
+//     return arr[i]
+//   }
+// }
+// console.log(oddNumbers([3 , 6 ,8 , 2]))
+
+//exrec 5
+
+// const checkExists = function(arr , number){
+//   for (let i=0; i < arr.length; i++){
+//     if (arr[i] === number){
+//       return true
+//     }
+//   }
+
+//   return false
+// }
+// console.log(checkExists([1, 2, 3], 6))
 
